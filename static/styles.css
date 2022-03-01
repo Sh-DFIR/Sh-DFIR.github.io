@@ -285,7 +285,7 @@ body > .welcome:hover {
 }
 @keyframes WebDev-fill{
     100%{
-        width: 40%;
+        width: 50%;
     }
 }
 #SysAd{
@@ -293,7 +293,7 @@ body > .welcome:hover {
 }
 @keyframes SysAd-fill{
     100%{
-        width: 50%;
+        width: 30%;
     }
 }
 #Python{
@@ -309,14 +309,14 @@ body > .welcome:hover {
 }
 @keyframes OSINT-fill{
     100%{
-        width: 80%;
+        width: 30%;
     }
 }#NetEng{
     animation: NetEng-fill 2s forwards;
 }
 @keyframes NetEng-fill{
     100%{
-        width: 70%;
+        width: 80%;
     }
 }
 
