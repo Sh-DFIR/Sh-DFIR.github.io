@@ -1,0 +1,76 @@
+<head>
+    <style>
+        body {
+            background-color:  #1F354C;
+            color: aliceblue;
+        }
+        img {
+            width: 600;
+        }
+        #gif {
+            width: 700;
+            border-style: solid;
+            border-width: 2;
+            border-radius: 10;
+            border-color: #122131;
+            box-shadow: 0 3px 5px 0 rgba(0,0,0,.2);
+        }
+        #main-grid {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            align-content: center;
+            flex-direction: column;
+        }
+
+        .navbar{
+            overflow: hidden;
+            background-color: transparent;
+            padding: 0;
+            list-style-type: none;
+            position: -webkit-sticky;
+            position: sticky;
+            top: 0;
+            width: 100%;
+            padding-left: -23;
+            box-shadow: 0 3px 5px 0 rgba(0,0,0,.2);
+            z-index: 2;
+            font-family: 'Architects Daughter', cursive;
+
+
+        }
+        li {
+            float: left;
+        }
+        li > a {
+            display: block;
+            float: left;
+            font-size: 18px;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-family: 'Architects Daughter', cursive;	
+
+        }
+        .navbar > li:hover {
+            background-color: #122131;
+        }
+        #active {
+            background-color: #122131;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <ul class="navbar">
+            <li><a id="home" href="/index.html" >Home</a></li>
+            <li><a id="active" href="/under_construction.html" >CTF Writeups</a></li>	
+    </header>
+    </ul>
+    <div id="main-grid">
+        <img src="/static/img/underconstruction.png"/>
+        <br>
+        <img id="gif"src="https://jbknowledge.com/wp-content/uploads/2017/06/2017-CT-Survey-Email-Header.gif" alt="">
+    </div>
+</body>
