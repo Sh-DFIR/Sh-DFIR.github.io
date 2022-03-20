@@ -76,8 +76,7 @@ body > .welcome {
 
 body > .welcome_two {
 	position: absolute;
-	top: 60%;
-	left: 53.8%;
+	text-align: center;
 	transform: translate(-50%, -50%);
 	text-shadow: 0 0 10px white;
 	margin: 0;
