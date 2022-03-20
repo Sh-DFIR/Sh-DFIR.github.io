@@ -194,6 +194,8 @@ body > .welcome {
 	}
 	html {
 		width: 100%;
+	    	font-family: 'Pixel-Art', sans-serif;
+                                                
 	}
 	#about_paragraph {
 		width: 120%; /* Can be in percentage also. */
@@ -251,7 +253,7 @@ body > .welcome {
   }
 #about_paragraph {
 	padding: 3 3 3 3;
-	font-family: 'Architects Daughter', cursive;
+	font-family: 'Pixel-Art', sans-serif;
 	font-weight: 300;	
 	font-size: 22px;
 }
@@ -270,7 +272,7 @@ body > .welcome {
 	overflow: hidden;
 	padding-right: 500px;
 	padding-left: 100px;
-	font-family: 'Architects Daughter', cursive;
+	font-family: 'Pixel-Art', sans-serif;
 	font-weight: bold;	
 	border-radius: 5px;
 	margin-top: 50px;
@@ -279,12 +281,12 @@ body > .welcome {
 }
 
 .skills > h4 {
-	font-family: 'Architects Daughter', cursive;
+	font-family: 'Pixel-Art', sans-serif;
 	border-radius: 5px;
 		
 }
 .skills > h3 {
-	font-family: 'Architects Daughter', cursive;	
+	font-family: 'Pixel-Art', sans-serif;	
 }
 .details{
     width: 100%;
