@@ -65,6 +65,7 @@ body {
 }
 .centered_welcome > .welcome {
 	font-family: 'Architects Daughter', cursive;
+	text-align: justify;
 }
 
 .bg > img{
