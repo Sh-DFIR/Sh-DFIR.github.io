@@ -15,7 +15,9 @@ html {
   20% { transform: skewX(0deg); }
   100% { transform: skewX(0deg); }  
 }
-
+#picoCTF, #cyberdefenders {
+	text-decoration: overline;	
+}
 #picoCTF:hover, #cyberdefenders:hover {
 	text-shadow: 0 0 10px rgb(0, 207, 243);
 }
