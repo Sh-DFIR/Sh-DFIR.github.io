@@ -108,6 +108,7 @@ a {
 	text-align: center;
 	background-color:  rgb(18, 33, 49);
 	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6);
+	display: none;
 
 }
 #exitBtn {
@@ -148,6 +149,53 @@ form {
 	justify-content: center;
 	align-items: center;
 } 
+
+
+/* Responsive Design */
+@media screen and (max-width: 400px) {
+	.main-content {
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+	}
+	.card {
+		width: 85%;
+		box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	}
+	.card:hover {
+		box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6);
+		
+	}
+}
+
+@media screen and (max-width: 700px) {
+	.main-content {
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+	}
+	.card {
+		width: 85%;
+		box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	}
+	.card:hover {
+		box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6);
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
