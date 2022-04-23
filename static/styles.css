@@ -4,17 +4,7 @@ html {
 	scroll-behavior: smooth;
 	margin: 0;	
 }
-#profile_shake {
-	animation: .8s shake infinite alternate;	
-}
-@keyframes shake {
-  0% { transform: skewX(-15deg); }
-  5% { transform: skewX(15deg); }
-  10% { transform: skewX(-15deg); }
-  15% { transform: skewX(15deg); }
-  20% { transform: skewX(0deg); }
-  100% { transform: skewX(0deg); }  
-}
+
 #picoCTF, #cyberdefenders {
 	text-decoration: overline;	
 }
@@ -40,6 +30,7 @@ html {
 
 
 }
+
 li {
 	float: left;
 }
@@ -218,11 +209,6 @@ body > .welcome {
 	.main_content_row{
 		text-align: justify;
 	}
-	html {
-		width: 100%;
-	    	font-family: 'Pixel-Art', sans-serif;
-                                                
-	}
 	#about_paragraph {
 		width: 120%; /* Can be in percentage also. */
 		height: auto;
@@ -239,6 +225,7 @@ body > .welcome {
 	}
 	body {
 		width: fit-content;
+		margin: 0;
 	}
 	#about_anchor {
 		opacity: 0.0;
@@ -275,6 +262,10 @@ body > .welcome {
 	}
 	.centered_welcome {
 		display: none;
+	}
+
+	body{
+		margin: 0;
 	}
   }
 #about_paragraph {

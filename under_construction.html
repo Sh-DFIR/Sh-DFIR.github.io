@@ -3,6 +3,7 @@
         body {
             background-color:  #1F354C;
             color: aliceblue;
+            margin: 0;
         }
         img {
             width: 600;
@@ -59,15 +60,22 @@
         #active {
             background-color: #122131;
         }
+        html {
+            text-shadow: 0 0 10px whitesmoke;
+            scroll-behavior: smooth;
+            margin: 0;	
+        }
     </style>
+    <title>CTF Writeups</title>
+    <link rel="icon" href="/static/img/filename.jpg" type="image/gif">
 </head>
 <body>
-    <header>
-        <ul class="navbar">
+    <ul class="navbar">
             <li><a id="home" href="/index.html" >Home</a></li>
-            <li><a id="active" href="/under_construction.html" >CTF Writeups</a></li>	
-    </header>
+            <li><a id="active" href="/under_construction.html" >CTF Writeups</a></li>
+            <li id="contact"><a href="/Contact.html">Contact</a></li>	
     </ul>
+
     <div id="main-grid">
         <img src="/static/img/underconstruction.png"/>
         <br>

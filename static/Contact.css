@@ -1,0 +1,61 @@
+/* Generic Styles */
+html {
+	text-shadow: 0 0 10px whitesmoke;
+	scroll-behavior: smooth;
+
+}
+
+body {
+	background-color: #1F354C;
+	color: white;
+    margin: 0;	
+}
+
+.main-content {
+	display: flex;
+	justify-content: center;
+}
+
+/* Navigation Bar */
+.navbar{
+	overflow: hidden;
+	background-color: transparent;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	position: -webkit-sticky;
+	position: sticky;
+	width: 100%;
+    height: auto;
+	font-family: 'Architects Daughter', cursive;
+    top: 0;
+    box-shadow: 0 3px 5px 0 rgba(0,0,0,.2);
+}
+
+li {
+	float: left;
+}
+
+li > a {
+	display: block;
+	float: left;
+	font-size: 18px;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+
+  }
+
+.navbar > li:hover {
+	background-color: #122131;
+  }
+
+#active {
+	background-color: #122131;
+}
+
+* {
+	color:#fff;
+	text-decoration: none;
+}

@@ -1,6 +1,8 @@
 
 body {
 	background-color: white;
+	margin: 0;
+	font-family: 'Architects Daughter', cursive;
 }
 
 /*Navigation Bar*/
@@ -11,12 +13,12 @@ body {
 	list-style-type: none;
 	position: -webkit-sticky;
 	position: sticky;
-	top: 0;
 	width: 100%;
 	padding-left: -23;
 	box-shadow: 0 3px 5px 0 rgba(0,0,0,.2);
 	z-index: 2;
 	font-family: 'Architects Daughter', cursive;
+	margin: 0;
 
 
 }
@@ -44,48 +46,108 @@ li > a {
 
 /*Body*/
 body {
+	margin: 0;
 	background-color: #1F354C;
 	color: white;
-}
-
-
-/*Writeup cards*/
-
-#parent_grid {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    align-items: baseline;
-
-}
-.card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7);
-    /*max-width: 500px;*/
-    padding: 10px;
-    text-align: center;
-    margin: 9px;
-	font-family: 'Architects Daughter', cursive;
-    z-index: 0;	
-    width: 429px;
-    
-}
-.card-author {
-	font-family: 'Architects Daughter', cursive;	
-
-}
-
-.card-title > h1 {
-	font-family: 'Architects Daughter', cursive;
-	
-}
-
-.card:hover {
-    box-shadow: 0 4px 8px 0 rgba(134, 134, 134, 0.7);
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
 }
 /*Background color for the active button.*/
 #CTF {
     background-color:  rgb(18, 33, 49);
 }
+
+
+.main-content{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+a {
+	text-decoration: none;
+	color: white;
+}
+/* Card */
+.card {
+	/* Add shadows to create the "card" effect */
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	transition: 0.3s;
+	border-radius: 5px;
+	width: 30%;
+	margin-left: 30px;
+	margin-top: 30px;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+  
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6);
+}
+
+/* Add some padding inside the card container */
+.container {
+	padding: 2px 16px;
+}
+
+
+
+/* Creation-form */
+#creation-form {
+	z-index: 3;
+	position: absolute;
+	border: solid 3px whitesmoke;
+	padding: 4px;
+	width: 30%;
+	text-align: center;
+	background-color:  rgb(18, 33, 49);
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6);
+
+}
+#exitBtn {
+	position: absolute;
+	top: 0;
+	right: 0;
+	background-color: transparent;
+	color: white;
+	margin: 6px;
+	border-radius: 50%;
+	border: solid 1px white;
+	
+}
+#exitBtn:hover {
+	border: dashed 1px white;
+	margin: 6px;
+}
+
+#to-center-form {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+	
+}
+
+#title, #desc {
+	margin: 8px 0px 16px 0px;
+	font-family: 'Architects Daughter', cursive;
+}
+
+form {
+	text-align: left;
+	padding: 7px;
+}
+.main-creation-form {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+} 
+
+
+
+
 
 
 
