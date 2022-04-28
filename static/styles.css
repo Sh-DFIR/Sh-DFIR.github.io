@@ -1,7 +1,11 @@
 /*Encapsulates all the elements in the page.*/
-html {
-	text-shadow: 0 0 10px whitesmoke;
+ * {
+	text-shadow: 
+		0 0 10px whitesmoke,
+		0 0 5px whitesmoke;
 	scroll-behavior: smooth;
+	font-family: 'Architects Daughter', cursive;
+	font-weight: bold;
 }
 
 #picoCTF, #cyberdefenders {
@@ -24,8 +28,7 @@ html {
 	width: 100%;
 	padding-left: -23;
 	box-shadow: 0 3px 5px 0 rgba(0,0,0,.2);
-	z-index: 2;
-	font-family: 'Architects Daughter', cursive;	
+	z-index: 2;	
 
 
 }
@@ -41,6 +44,7 @@ li > a {
 	text-align: center;
 	padding: 14px 16px;
 	text-decoration: none;
+	font-family: 'Architects Daughter', cursive;
 
   }
 .navbar > li:hover {

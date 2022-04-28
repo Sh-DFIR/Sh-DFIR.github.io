@@ -1,8 +1,12 @@
+html {
+	text-shadow: 0 0 10px whitesmoke;
+	scroll-behavior: smooth;
+	font-family: 'Architects Daughter', cursive;
+}
 
 body {
 	background-color: white;
 	margin: 0;
-	font-family: 'Architects Daughter', cursive;
 }
 
 /*Navigation Bar*/
@@ -17,7 +21,6 @@ body {
 	padding-left: -23;
 	box-shadow: 0 3px 5px 0 rgba(0,0,0,.2);
 	z-index: 2;
-	font-family: 'Architects Daughter', cursive;
 	margin: 0;
 
 
@@ -73,7 +76,6 @@ a {
 }
 /* Card */
 .card {
-	/* Add shadows to create the "card" effect */
 	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 	transition: 0.3s;
 	border-radius: 5px;
@@ -83,7 +85,6 @@ a {
 	display: flex;
 	justify-content: center;
 	flex-direction: column;
-	
 }
   
 /* On mouse-over, add a deeper shadow */
@@ -95,6 +96,18 @@ a {
 .container {
 	padding: 2px 16px;
 }
+
+/* Add Writeup button */
+.addWriteup {
+	text-decoration: none;
+	background-color: transparent;
+	border: none;
+	font-family: inherit;
+	color: inherit;
+	font-size: inherit;
+	text-shadow: inherit;
+}
+
 
 
 
@@ -137,7 +150,13 @@ a {
 
 #title, #desc {
 	margin: 8px 0px 16px 0px;
-	font-family: 'Architects Daughter', cursive;
+	height: auto;
+	width: 100%;
+	background-color: transparent;
+	border: solid 2px whitesmoke;
+	color: white;
+	font-family: inherit;
+	font-weight: bold;
 }
 
 form {
@@ -149,6 +168,10 @@ form {
 	justify-content: center;
 	align-items: center;
 } 
+
+
+
+
 
 
 /* Responsive Design */
@@ -182,21 +205,6 @@ form {
 		box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6);
 	}
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
