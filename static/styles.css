@@ -1,11 +1,10 @@
 /*Encapsulates all the elements in the page.*/
  * {
 	text-shadow: 
-		0 0 10px whitesmoke,
-		0 0 5px whitesmoke;
-	scroll-behavior: smooth;
-	font-family: 'Architects Daughter', cursive;
-	font-weight: bold;
+		0 0 10px whitesmoke;
+		scroll-behavior: smooth;
+		font-family: 'Architects Daughter', cursive;
+		font-weight: bold;
 }
 
 #picoCTF, #cyberdefenders {
@@ -410,9 +409,10 @@ footer{
 	bottom: 0;
 	text-shadow: none;
 	align-items: baseline;
-	
 
 }
+
+
 .footer-distributed{
 	background-color: #292c2f;
 	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
