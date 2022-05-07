@@ -9,6 +9,7 @@
 
 #picoCTF, #cyberdefenders {
 	text-decoration: underline;	
+	animation: flicker 1.5s infinite alternate;
 }
 #picoCTF:hover, #cyberdefenders:hover {
 	text-shadow: 0 0 10px rgb(0, 207, 243);
@@ -22,14 +23,14 @@
 	padding: 0;
 	list-style-type: none;
 	position: -webkit-sticky;
-	position: sticky;
+	position: absolute;
+	
 	top: 0;
 	width: 100%;
 	padding-left: -23;
 	box-shadow: 0 3px 5px 0 rgba(0,0,0,.2);
 	z-index: 2;	
-
-
+	float: top;
 }
 
 li {
@@ -51,6 +52,7 @@ li > a {
   }
 #active {
 	background-color: #122131;
+	animation: flicker 1.5s infinite alternate;
 }
 
 /* For the body of the page*/
@@ -113,8 +115,6 @@ body > .welcome {
 }
 
 
-
-
 /* Main-AboutMe */
 .Main_AboutMe {
 	display: flex;
@@ -125,6 +125,17 @@ body > .welcome {
 .main_content_row {
 	margin-top: 90px;
   }
+
+
+
+
+
+
+
+
+
+
+
 
 
   /*Flip card start*/
@@ -146,10 +157,33 @@ body > .welcome {
 	transform: rotateY(180deg);
 }
 #flip-card-back > a {
-	position: center;
+	position: absolute;
 	text-decoration: none;
 	justify-content: center;
+	font-size: larger;
+	font-family: 'Architects Daughter', cursive;
+	animation: flicker 1.5s infinite alternate;
+	color: #fff;
 }
+@keyframes flicker {
+    
+	0%, 18%, 22%, 25%, 53%, 57%, 100% {
+  
+		text-shadow:
+		0 0 4px #fff,
+		0 0 11px #fff,
+		0 0 19px #fff,
+		0 0 40px #1F354C;
+	
+	}
+	
+	20%, 24%, 55% {        
+		text-shadow: none;
+	}    
+  }
+  
+
+
 
 #flip-card:hover #flip-card-inner {
 	transform: rotateY(180deg);
@@ -168,6 +202,8 @@ body > .welcome {
 	width: 300px;
 	height: 200px;
 	perspective: 1000px; /* Remove this if you don't want the 3D effect */
+	display: flex;
+	justify-content: center;
 }
 #flip-card-inner {
 	position: relative;
@@ -179,6 +215,17 @@ body > .welcome {
 	border-color: white;
 	border-width: 10px;
 }
+
+
+
+
+
+
+
+
+
+
+
 
 
   /*Flip card end*/
