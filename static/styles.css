@@ -62,8 +62,7 @@ body {
 	scroll-behavior: smooth;
 	text-shadow:
     0 0 7px #fff,
-    0 0 10px #fff,
-    0 0 21px #fff;
+    0 0 10px #fff;
 }
 
 /*Coverimage Welcome, Welcome_two*/
@@ -193,10 +192,13 @@ body > .welcome {
 #about_anchor:hover {
 	text-shadow: 0 0 10px rgb(0, 207, 243);
 }
-#about_paragraph {
+#about_paragraph > p {
 	letter-spacing: 0.1em;
 	text-align: justify;
+	font-family: 'Architects Daughter', cursive;
+
 }
+
 
 #main_content_main {
 	flex: 70%; /* Set the width of the main content */

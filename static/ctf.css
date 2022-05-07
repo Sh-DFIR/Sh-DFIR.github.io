@@ -243,16 +243,23 @@ footer{
 
 }
 .footer-distributed{
-	background-color: #292c2f;
-	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	background-color: transparent;
+	box-shadow: 5px 10px 1px 10px rgba(0, 0, 0, 0.12);
 	box-sizing: border-box;
 	width: 100%;
 	text-align: left;
 	font: bold 16px sans-serif;
 	align-items: baseline;
-
+	text-shadow: none;
+	border-top: 1px solid whitesmoke;
 	padding: 55px 50px;
 	margin-top: 80px;
+	/* box-shadow: 0px 0 10px whitesmoke; */
+	box-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff;
+
 }
 
 .footer-distributed .footer-left,
@@ -383,7 +390,7 @@ footer{
 	width: 35px;
 	height: 35px;
 	cursor: pointer;
-	background-color:  #33383b;
+	background-color:  #122131;
 	border-radius: 2px;
 	align-items: baseline;
 
