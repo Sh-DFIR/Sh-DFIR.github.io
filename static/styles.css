@@ -263,6 +263,9 @@ body > .welcome {
 }
 /*When the screen is less that 700px it will stack together*/
 @media screen and (max-width: 700px) {
+	.navbar {
+		width: 100%;
+	}
 	.Main_AboutMe {
 		display: flex;
 		flex-direction: column;
@@ -314,6 +317,9 @@ body > .welcome {
 
  /* When the screen is less that 400px the navbar will stack againts each other*/ 
   @media screen and (max-width: 400px) {
+	.navbar {
+		width: 100%;
+	}
 	.Main_AboutMe {
 		display: flex;
 		flex-direction: column;
