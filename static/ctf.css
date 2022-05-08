@@ -253,7 +253,7 @@ form {
 
 
 /*Footer*/
-footer{
+/* footer{
 	position: bottom;
 	text-shadow: none;
 	align-items: baseline;
@@ -261,7 +261,7 @@ footer{
     height: auto;
 	
 
-}
+} */
 .footer-distributed{
 	background-color: transparent;
 	box-shadow: 5px 10px 1px 10px rgba(0, 0, 0, 0.12);
